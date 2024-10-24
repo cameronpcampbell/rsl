@@ -1,0 +1,25 @@
+#TextButton {
+    AutomaticSize = Enum.AutomaticSize.XY,
+    Size = (0, 0),
+    Position = (.5, .5),
+    AnchorPoint = (.5, .5),
+    TextSize = 14px,
+    FontFace = Font.fromId(16658221428, Enum.FontWeight.SemiBold, Enum.FontStyle.Normal),
+    BackgroundColor3 = #005AC5,
+    TextColor3 = #f8fafc,
+
+    :hover {
+        BackgroundColor3 = #004392,
+    }
+
+    ::UIPadding {
+        PaddingLeft = 14px,
+        PaddingRight = 14px,
+        PaddingTop = 10px,
+        PaddingBottom = 10px
+    }
+
+    ::UICorner {
+        CornerRadius = 16px
+    }
+}
